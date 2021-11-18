@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>dmdevcode.MicrosServiceBase</id>
+    <version>0.8.1</version>
+    <description>This nuget packages a dotnet new template for a simple worker service, that can be used within Visual Studio or the .NET CLI.</description>
+    <authors>Dominique Biesmans ()</authors>
+    <title>Microservice Dotnet Templates</title>
+    <copyright>Copyright 2021: https://github.com/dmdevcode. All right Reserved</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <tags>.NET WebApi Worker Service</tags>
+    <projectUrl>https://github.com/dmdevcode/MicroServiceBase</projectUrl>
+    <repository type="git" url="https://github.com/dmdevcode/MicroServiceBase.git" branch="main"  />
+    <language>en-US</language>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*" />
+  </files>
+</package>

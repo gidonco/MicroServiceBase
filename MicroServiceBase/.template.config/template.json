@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Dominique Biesmans",
+  "classifications": [ "Web", "WebAPI", "WorkerService", "Microservice" ],
+  "identity": "dmdevcode.template.microservice",
+  "name": "Windows WebAPI/Worker Service",
+  "description": "Basic template for a hybrid Windows WebAPI/Worker Service",
+  "shortName": "dmd-microservice",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MicroServiceBase.Template"
+}
